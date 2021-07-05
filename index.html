@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ROYALITY</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="header" id="header">
+            <nav>
+                <a href="index.html"> <img src="logo1.svg" alt="logo" class="logo"> </a>
+                <div class="nav-links" id="navLinks" >
+                    <img src="close.png" class="close" onclick="hideMenu()">
+                    <ul>
+                        <li><a href="#header">Home</a> </li>
+                        <li><a href="#about">About</a> </li>
+                        <li><a href="#service">Services</a> </li>
+                        <li><a href="#contact">Contact Us</a> </li>
+                       
+                    </ul>
+                </div>
+            <img src="menu.png" onclick="showMenu()" class="menu" >
+            </nav>
+            <div class="text-box">
+                <h1>FEEL <span>ROYALITY</span> HERE</h1>
+                <p>This website provides a membership of ROYALITY, Even being you belong to any background.</p>
+                <a href="" class="btn">Visit us to Know More</a>
+            </div>
+
+        </section>
+        <section id="about" class="about-us">
+            <div class="about">
+               <div class="head"> <h1>About Us</h1> </div>
+               <div class="text-about">
+                <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                <p>
+                  Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" 
+                 by Cicero are also reproduced in their exact original form,   
+                </p>
+                
+                 accompanied by English versions from the 1914 translation by H. Rackham. 
+               </p>
+              
+               </div>
+               <div class="main-gal">
+                  <div class="gallary">
+                      <img src="dk.jpg" alt="cheif member of board">
+                      <h3>cheif member of board</h3>
+            </div>
+            <div class="gallary">
+                <img src="roh.jpg" alt="head of board">
+                <h3>Head of board</h3>
+            </div>
+        <div class="gallary">
+        <img src="milan.jpg" alt="cheif member of board">
+        <h3>cheif member of board</h3>
+        </div>    
+               </div>
+         
+        
+            </div>
+           
+        </section>
+        <section class="services" id="service">
+            <h1>
+                Services We Provides
+            </h1>
+            <div class="pass-type">
+                <div class="pass">
+                    <h3>Basic Pass</h3>
+                    <p>Here basic access are granted only.</p>
+                </div>
+                <div class="pass"> 
+                    <h3>Gold Pass</h3>
+                    <p>In this pass you have specific access or some special features too. </p>
+                </div>
+                <div class="pass">
+                    <h3>Platinum Pass</h3>
+                    <p>In this pass you have access of modification or legal member of board.</p>
+                </div>
+                <div class="pass">
+                    <h3>Diamond Pass</h3>
+                    <p>This pass provides you all the access either that may be with some rules.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <h1>Contact Us</h1>
+            <div class="form">
+            <form>
+                <label for="name">Name: </label>
+                <input type="text" name="name" placeholder="name" required><br><br>
+                <label for="name">Email: </label>
+                <input type="emai'" name="email" placeholder="email" required><br><br>
+                <label for="message" id="mess">Message: </label>
+                <textarea placeholder="Enter message here..." id="mes"></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+            </div>
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+               
+
+            </div>
+            <p>This website is designed or created by Rohit Kumar.</p>
+            <p>&copy; copyright 2021</p>
+            
+          
+
+        </section>
+
+
+
+
+
+
+
+
+        <script>
+            var navLink = document.getElementById("navLinks");
+            function showMenu(){
+                navLink.style.right = "0";
+
+            }
+            function hideMenu(){
+                navLink.style.right = "-450px";
+            }
+        </script>
+    </body>
+</html>
