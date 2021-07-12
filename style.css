@@ -120,7 +120,7 @@ nav .menu {
     display: none;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 720px) {
     .text-box h1 {
         color: navajowhite;
         font-size: 30px;
@@ -242,7 +242,7 @@ h3 {
     opacity: 80%;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 720px) {
     .pass-type {
         flex-direction: column;
         justify-content: center;
@@ -279,7 +279,7 @@ h3 {
     text-align: center;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 720px) {
     .main-gal {
         justify-content: center;
         text-align: center;
