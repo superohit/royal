@@ -120,7 +120,7 @@ nav .menu {
     display: none;
 }
 
-@media(max-width: 980px) {
+@media(max-width: 780px) {
     .text-box h1 {
         color: navajowhite;
         font-size: 30px;
@@ -145,7 +145,7 @@ nav .menu {
         height: 100vh;
         width: 100%;
         top: 0;
-        right: -750px;
+        right: -2400px;
         text-align: center;
         z-index: 2;
         transition: 1s;
@@ -242,7 +242,7 @@ h3 {
     opacity: 80%;
 }
 
-@media(max-width: 980px) {
+@media(max-width: 780px) {
     .pass-type {
         flex-direction: column;
         justify-content: center;
@@ -279,7 +279,7 @@ h3 {
     text-align: center;
 }
 
-@media(max-width: 980px) {
+@media(max-width: 780px) {
     .main-gal {
         justify-content: center;
         text-align: center;
