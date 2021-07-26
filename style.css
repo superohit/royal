@@ -7,7 +7,7 @@
 .header {
     background: red;
     min-height: 100vh;
-    width: 100%;
+    min-width: 100vw;
     background-image: linear-gradient(rgba(26, 228, 117, 0.8), rgba(30, 206, 83, 0.8)), url(best.jpeg);
     background-position: center;
     background-size: cover;
@@ -125,6 +125,9 @@ nav .menu {
         color: navajowhite;
         font-size: 30px;
     }
+    *{
+        font-size: 16px;
+    }
 
     nav .menu {
         display: inline-block;
@@ -145,13 +148,15 @@ nav .menu {
         height: 100vh;
         width: 100%;
         top: 0;
-        right: -1080px;
+        right: -780px;
         text-align: center;
         z-index: 2;
         transition: 1s;
     }
 
     nav .close {
+        margin-left: auto;
+        margin-right: auto;
         display: block;
         margin: 10px 46%;
         font-size: 22px;
