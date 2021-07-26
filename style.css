@@ -129,6 +129,9 @@ nav .menu {
     * {
         font-size: l8px;
     }
+    p{
+        font-size: 18px;
+    }
 
     nav .menu {
         display: inline-block;
@@ -165,6 +168,7 @@ nav .menu {
 
     .nav-links ul li {
         padding: 30px;
+        font-size: 24px;
     }
 
 
