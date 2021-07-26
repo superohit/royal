@@ -120,7 +120,7 @@ nav .menu {
     display: none;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 480px) {
     .text-box h1 {
         color: navajowhite;
         font-size: 30px;
@@ -246,7 +246,7 @@ h3 {
     opacity: 80%;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 480px) {
     .pass-type {
         flex-direction: column;
         justify-content: center;
@@ -283,7 +283,7 @@ h3 {
     text-align: center;
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 480px) {
     .main-gal {
         justify-content: center;
         text-align: center;
