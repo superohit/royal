@@ -128,7 +128,8 @@ nav .menu {
     }
 
     * {
-        font-size: l8px;
+        font-size: 24px;
+        zoom: 150%;
     }
 
     nav .menu {
@@ -151,7 +152,7 @@ nav .menu {
         background: #f44336;
         height: 100vh;
         width: 100%;
-        top: -1840px;
+        top: -1440px;
         right: 0px;
         text-align: center;
         z-index: 1;
