@@ -141,7 +141,7 @@ nav .menu {
     }
 
     .nav-links ul li {
-        font-size: larger;
+        font-size: 40px;
         display: block;
     }
 
@@ -162,7 +162,7 @@ nav .menu {
 
     nav .close {
         display: block;
-        margin: 10px 46%;
+        margin: 10px 49%;
         font-size: 22px;
         cursor: pointer;
 
