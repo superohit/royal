@@ -27,7 +27,7 @@ nav .logo {
     background-color: white;
     border-radius: 50%;
     width: 100px;
-    height: 50px;
+    height: 70px;
     right: 78%;
     margin-top: 10px;
 }
@@ -144,6 +144,11 @@ nav .menu {
         font-size: 40px;
         display: block;
     }
+     .nav-links ul li a {
+         
+        font-size:40px;
+    }
+
 
 
     .nav-links {
